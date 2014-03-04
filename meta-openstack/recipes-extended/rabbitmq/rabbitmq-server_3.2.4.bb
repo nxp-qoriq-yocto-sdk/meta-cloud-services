@@ -62,3 +62,5 @@ FILES_${PN} += " ${libdir}/rabbitmq/lib/${PN}-${PV}/* \
 
 FILES_${PN}-doc += "LICENSE* INSTALL"
 INSANE_SKIP_${PN} = "unsafe-references-in-scripts"
+PARALLEL_MAKE = ""
+
