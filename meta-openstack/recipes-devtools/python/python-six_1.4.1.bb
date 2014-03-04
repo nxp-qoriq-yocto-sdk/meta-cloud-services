@@ -1,7 +1,7 @@
 DESCRIPTION = "Python 2 and 3 compatibility utilities"
 HOMEPAGE = "http://pypi.python.org/pypi/six/"
 SECTION = "devel/python"
-LICENSE = "UNKNOWN"
+LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=aa39e09066d6ba3a8c8b2db7cbd8bd70"
 
 PR = "r0"
