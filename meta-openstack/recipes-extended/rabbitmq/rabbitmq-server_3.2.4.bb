@@ -58,3 +58,5 @@ FILES_${PN} += " ${libdir}/rabbitmq/lib/${PN}-${PV}/* \
                "
 
 FILES_${PN}-doc += "LICENSE* INSTALL"
+PARALLEL_MAKE = ""
+
