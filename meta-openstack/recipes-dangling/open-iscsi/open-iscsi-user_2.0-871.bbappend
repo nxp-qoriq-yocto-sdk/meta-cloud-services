@@ -1,5 +1,3 @@
-PRINC := "${@int(PRINC) + 1}"
-
 inherit update-rc.d
 
 do_install () {
