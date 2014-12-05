@@ -3,6 +3,7 @@ HOMEPAGE = "http://stgt.sourceforge.net"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://scripts/tgtd.spec;beginline=7;endline=7;md5=21c19ea7dad04648b9c2f791b6e29b4c"
 DEPENDS = "sg3-utils"
+RDEPENDS_${PN} += "libaio"
 
 SRCREV = "0ee382bab57a8ecd9ece18d511bd098298478409"
 PV = "1.0.36+git${SRCPV}"
