@@ -4,6 +4,8 @@ SECTION = "devel/python"
 LICENSE = "PSFv2"
 LIC_FILES_CHKSUM = "file://COPYRIGHT;md5=35f354d199e8cb7667b059a23578e63d"
 
+RDEPENDS_${PN} += "gmp"
+
 PR = "r0"
 SRCNAME = "pycrypto"
 
